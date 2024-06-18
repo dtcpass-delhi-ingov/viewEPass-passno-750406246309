@@ -1,0 +1,143 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 13px;
+    line-height: 1.57143;
+    color: #322828;
+    padding: 35px 15px 210px;
+    background-color: #d9eeef;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 56px;
+    text-align: center;
+    color: #01a2a6;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 56px;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0 0px 10px 0 rgba(67, 67, 69, 0.35);
+}
+.quick{
+    padding: 2em;
+    background-color: #F9F9F9;
+    margin-top: 35px;
+    border: 1px solid #DDD;
+    width: 666.4px;
+}
+hr{
+    margin-bottom: 2em;
+}
+table{
+    background-color: transparent;
+    border-spacing: 0;
+    background: url('https://dtcpass.delhi.gov.in/images/Dtc.jpeg');
+}
+.heading{
+    outline: solid 1px #DDD;
+}
+h5.text-center{
+    color:#01a2a6;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 8px;
+}
+.details-td{
+    padding: 8px;
+    text-align: center;
+    border: solid 1px #DDD;
+    border-top: none;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+.profile-image{
+    width: 250px;
+    height: 250px;
+    opacity: 65%;
+}
+.signature, .qr-code{
+    padding: 8px;
+    border: solid 1px #DDD;
+}
+.signature{
+    text-align: left;
+    border-top: none;
+    border-right: none;
+}
+.qr-code{
+    border-top: none;
+    text-align: center;
+}
+.qr-code img{
+    height: 80px;
+    width: 80px;
+}
+.name{
+    display: block;
+    font-size: 20px;
+    line-height: normal;
+    margin: 0 0 10px;
+}
+.name:nth-of-type(2){
+    margin-top: -15px !important;
+}
+.pass-number{
+    display: block;
+    margin-top: -15px !important;
+    font-size: 25px;
+}
+.validation{
+    display: block;
+    font-size: 20px;
+    margin-top: -15px;
+    color: red;
+}
+#blink{
+    color: #2f8a12;
+    transition: 1.5s;
+}
+td{
+    line-height: 1.573;
+}
+footer{
+    background-color: #01a2a6;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.57143;
+    text-align: center;
+    padding: 90px 0 40px;
+    box-sizing: border-box;
+    margin: 0 0 11px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 900;
+    color: black;
+}
+
+@media(max-width: 765px){
+    .quick{
+        padding: 0;
+        width: 450px;
+    }
+    hr{
+        display: none;
+    }
+}
